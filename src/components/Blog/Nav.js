@@ -11,7 +11,6 @@ import FeaturedPost from './FeaturedPost';
 import Main from './Main';
 import Sidebar from './Sidebar';
 import Footer from './Footer';
-import post1 from './blog-post.1.md';
 import { useLocation } from 'react-router-dom';
 import axios from 'axios';
 
@@ -62,9 +61,7 @@ const featuredPosts = [
       imageLabel: 'Image Text',
     }
   ];
-  
-  const posts = [post1];
-  
+    
   const sidebar = {
     title: 'About',
     description:

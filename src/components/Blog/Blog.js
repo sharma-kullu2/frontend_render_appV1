@@ -118,7 +118,6 @@ export default function Blog() {
   
   console.log("---->data",data);;
   console.log("---->posts",post);
-  console.log("---->org posts",posts);
   console.log("---->mainpost",mainpost);
   console.log("---->featuredpost",featurepost)
   if (loading) {
